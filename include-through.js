@@ -52,7 +52,7 @@ module.exports = function(Model, options) {
     ) {
       query.fields = [throughKey, ctx.args.filter.includeThrough.fields];
     } else if (options.fields && options.fields[relationName]) {
-      query.fields = [throughKey, options.fields[relationName]];
+      query.fields = [throughKey].concat(options.fields[relationName]);
     }
 
     throughModel.find(query, function(err, results) {
