@@ -1,4 +1,5 @@
 # loopback-include-through-mixin
+###### Forked by TVI for use in [tvi-api-service](https://github.com/tvinteractive/tvi-api-service) & [satcam-api-service](https://github.com/tvinteractive/satcam-api-service)
 
 [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 [![devDependency Status](https://david-dm.org/JonnyBGod/loopback-include-through-mixin/dev-status.svg)](https://david-dm.org/JonnyBGod/loopback-include-through-mixin#info=devDependencies)
